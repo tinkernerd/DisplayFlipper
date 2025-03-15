@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		AF2ADC312D860A2800183601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2ADC172D860A2800183601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF2ADC1E2D860A2800183601;
+			remoteInfo = DisplayFlipper;
+		};
+		AF2ADC3B2D860A2900183601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2ADC172D860A2800183601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF2ADC1E2D860A2800183601;
+			remoteInfo = DisplayFlipper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF2ADC1F2D860A2800183601 /* DisplayFlipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayFlipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2ADC302D860A2800183601 /* DisplayFlipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisplayFlipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2ADC3A2D860A2900183601 /* DisplayFlipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisplayFlipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AF2ADC212D860A2800183601 /* DisplayFlipper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DisplayFlipper;
+			sourceTree = "<group>";
+		};
+		AF2ADC332D860A2900183601 /* DisplayFlipperTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DisplayFlipperTests;
+			sourceTree = "<group>";
+		};
+		AF2ADC3D2D860A2900183601 /* DisplayFlipperUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DisplayFlipperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF2ADC1C2D860A2800183601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2ADC2D2D860A2800183601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2ADC372D860A2900183601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF2ADC162D860A2800183601 = {
+			isa = PBXGroup;
+			children = (
+				AF2ADC212D860A2800183601 /* DisplayFlipper */,
+				AF2ADC332D860A2900183601 /* DisplayFlipperTests */,
+				AF2ADC3D2D860A2900183601 /* DisplayFlipperUITests */,
+				AF2ADC202D860A2800183601 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF2ADC202D860A2800183601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF2ADC1F2D860A2800183601 /* DisplayFlipper.app */,
+				AF2ADC302D860A2800183601 /* DisplayFlipperTests.xctest */,
+				AF2ADC3A2D860A2900183601 /* DisplayFlipperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF2ADC1E2D860A2800183601 /* DisplayFlipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2ADC442D860A2900183601 /* Build configuration list for PBXNativeTarget "DisplayFlipper" */;
+			buildPhases = (
+				AF2ADC1B2D860A2800183601 /* Sources */,
+				AF2ADC1C2D860A2800183601 /* Frameworks */,
+				AF2ADC1D2D860A2800183601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF2ADC212D860A2800183601 /* DisplayFlipper */,
+			);
+			name = DisplayFlipper;
+			packageProductDependencies = (
+			);
+			productName = DisplayFlipper;
+			productReference = AF2ADC1F2D860A2800183601 /* DisplayFlipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF2ADC2F2D860A2800183601 /* DisplayFlipperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2ADC472D860A2900183601 /* Build configuration list for PBXNativeTarget "DisplayFlipperTests" */;
+			buildPhases = (
+				AF2ADC2C2D860A2800183601 /* Sources */,
+				AF2ADC2D2D860A2800183601 /* Frameworks */,
+				AF2ADC2E2D860A2800183601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF2ADC322D860A2800183601 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF2ADC332D860A2900183601 /* DisplayFlipperTests */,
+			);
+			name = DisplayFlipperTests;
+			packageProductDependencies = (
+			);
+			productName = DisplayFlipperTests;
+			productReference = AF2ADC302D860A2800183601 /* DisplayFlipperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF2ADC392D860A2900183601 /* DisplayFlipperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2ADC4A2D860A2900183601 /* Build configuration list for PBXNativeTarget "DisplayFlipperUITests" */;
+			buildPhases = (
+				AF2ADC362D860A2900183601 /* Sources */,
+				AF2ADC372D860A2900183601 /* Frameworks */,
+				AF2ADC382D860A2900183601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF2ADC3C2D860A2900183601 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AF2ADC3D2D860A2900183601 /* DisplayFlipperUITests */,
+			);
+			name = DisplayFlipperUITests;
+			packageProductDependencies = (
+			);
+			productName = DisplayFlipperUITests;
+			productReference = AF2ADC3A2D860A2900183601 /* DisplayFlipperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF2ADC172D860A2800183601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					AF2ADC1E2D860A2800183601 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					AF2ADC2F2D860A2800183601 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AF2ADC1E2D860A2800183601;
+					};
+					AF2ADC392D860A2900183601 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = AF2ADC1E2D860A2800183601;
+					};
+				};
+			};
+			buildConfigurationList = AF2ADC1A2D860A2800183601 /* Build configuration list for PBXProject "DisplayFlipper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF2ADC162D860A2800183601;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF2ADC202D860A2800183601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF2ADC1E2D860A2800183601 /* DisplayFlipper */,
+				AF2ADC2F2D860A2800183601 /* DisplayFlipperTests */,
+				AF2ADC392D860A2900183601 /* DisplayFlipperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF2ADC1D2D860A2800183601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2ADC2E2D860A2800183601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2ADC382D860A2900183601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF2ADC1B2D860A2800183601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2ADC2C2D860A2800183601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2ADC362D860A2900183601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF2ADC322D860A2800183601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF2ADC1E2D860A2800183601 /* DisplayFlipper */;
+			targetProxy = AF2ADC312D860A2800183601 /* PBXContainerItemProxy */;
+		};
+		AF2ADC3C2D860A2900183601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF2ADC1E2D860A2800183601 /* DisplayFlipper */;
+			targetProxy = AF2ADC3B2D860A2900183601 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF2ADC422D860A2900183601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF2ADC432D860A2900183601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AF2ADC452D860A2900183601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DisplayFlipper/DisplayFlipper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisplayFlipper/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W98Y9LVLU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkernerd.DisplayFlipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AF2ADC462D860A2900183601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DisplayFlipper/DisplayFlipper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DisplayFlipper/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W98Y9LVLU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkernerd.DisplayFlipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AF2ADC482D860A2900183601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W98Y9LVLU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkernerd.DisplayFlipperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisplayFlipper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisplayFlipper";
+			};
+			name = Debug;
+		};
+		AF2ADC492D860A2900183601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W98Y9LVLU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkernerd.DisplayFlipperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DisplayFlipper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DisplayFlipper";
+			};
+			name = Release;
+		};
+		AF2ADC4B2D860A2900183601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W98Y9LVLU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkernerd.DisplayFlipperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DisplayFlipper;
+			};
+			name = Debug;
+		};
+		AF2ADC4C2D860A2900183601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W98Y9LVLU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tinkernerd.DisplayFlipperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DisplayFlipper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF2ADC1A2D860A2800183601 /* Build configuration list for PBXProject "DisplayFlipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2ADC422D860A2900183601 /* Debug */,
+				AF2ADC432D860A2900183601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2ADC442D860A2900183601 /* Build configuration list for PBXNativeTarget "DisplayFlipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2ADC452D860A2900183601 /* Debug */,
+				AF2ADC462D860A2900183601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2ADC472D860A2900183601 /* Build configuration list for PBXNativeTarget "DisplayFlipperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2ADC482D860A2900183601 /* Debug */,
+				AF2ADC492D860A2900183601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2ADC4A2D860A2900183601 /* Build configuration list for PBXNativeTarget "DisplayFlipperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2ADC4B2D860A2900183601 /* Debug */,
+				AF2ADC4C2D860A2900183601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF2ADC172D860A2800183601 /* Project object */;
+}
